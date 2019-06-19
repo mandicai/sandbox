@@ -1,0 +1,17 @@
+body {
+    font-family: 'Lato';
+}
+
+.section {
+    margin: 5%;
+}
+
+a {
+    color: #FF2A92;
+    transition: 0.2s ease all;
+}
+
+a:hover {
+    color: black;
+    transition: 0.2s ease all;
+}

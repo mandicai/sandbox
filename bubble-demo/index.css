@@ -1,0 +1,82 @@
+body, input, select, textarea {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.75em;
+	letter-spacing: 0.025em;
+	background-color: #303030;
+}
+
+.section {
+	margin: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	color: #484d55;
+}
+
+p, a {
+	color: white;
+}
+
+a:hover {
+	color: #a8a9a8;
+	transition: 0.2s ease all;
+}
+
+.tooltip {
+	background-color: #fff;
+	border-left: .09375rem solid #787878;
+	border-right: .09375rem solid #787878;
+	border-top: .09375rem solid #787878;
+	border-bottom: .09375rem solid #787878;
+	box-shadow: 0 0.125rem 0.25rem rgba(33,33,33,.075);
+	width: 12rem;
+	padding: .55rem;
+	pointer-events: none;
+	position: absolute;
+	z-index: 1070;
+}
+
+table {
+	font-size: 0.75em;
+}
+
+th {
+	width: 100%;
+	padding: 10px;
+  }
+
+th.name {
+	font-size: 1.5em;
+	text-align: left;
+}
+
+td {
+	width: 200px;
+	padding: 12px;
+	border-top: 2px #a8a9a8 solid;
+}
+
+td.key {
+	text-align: left;
+}
+
+td.number {
+	text-align: right;
+}
+
+.invisible {
+	opacity: 0;
+	transition: 0.2s ease all;
+}
+
+label {
+	color: #fff
+}
+
+text {
+	text-anchor: middle;
+	fill: #fff;
+}
